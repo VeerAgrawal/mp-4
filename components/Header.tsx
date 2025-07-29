@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <StyledHeader>
       <h1>Veer Agrawal</h1>
-      <p>Search for Movie's</p>
+      <p>Search for Movies</p>
     </StyledHeader>
   );
 }

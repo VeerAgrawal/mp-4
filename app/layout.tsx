@@ -4,8 +4,8 @@ import React from "react";
 import { Inter } from "next/font/google";
 
 export const metadata = {
-  title: "CS391 Movie Radar",
-  description: "Find film details using the OMDb API",
+  title: "CS391 Movie searcher",
+  description: "Find movie details using the OMDb (open movie database) API",
 };
 
 const inter = Inter({ subsets: ["latin"] });

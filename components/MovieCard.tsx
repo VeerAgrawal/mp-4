@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Link from "next/link";
 import type { MovieSearchItem } from "@/types";
 
-/* poster plus caption */
+
 const CardWrap = styled.article`
   flex: 1 1 45%;
   max-width: 45%;
