@@ -1,11 +1,11 @@
 import { getMovie } from "@/lib/omdb";
 import MovieDetails from "@/components/MovieDetails";
 
-interface Params {
-  imdbID: string;
-}
-
-export default async function MoviePage({ params }: { params: Params }) {
-  const movie = await getMovie(params.imdbID); 
+export default async function MoviePage({
+  params,
+}: {
+  params: { imdbID: string };
+}) {
+  const movie = await getMovie(params.imdbID); // server-side fetch
   return <MovieDetails movie={movie} />;
 }
